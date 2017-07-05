@@ -7,11 +7,14 @@ website: www.github.com/MCElmo
 
 commands:
    idrop:
-      usage: /<command>
+      usage: /<command> reload
       description: Base Command
+      alias: [id]
 
 permissions:
    idrop.reload:
       description: Access the reload command
+      defualt: op
    idrop.bypass:
-      Bypass the restrictions
+      description: Bypass the restrictions
+      dfualt: op
