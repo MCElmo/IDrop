@@ -1,0 +1,17 @@
+name: IDrop
+version: ${project.version}
+main: me.MC_Elmo.IDrop
+authors: [MC_Elmo]
+description: Stop the dropiing of configurable items
+website: www.github.com/MCElmo
+
+commands:
+   idrop:
+      usage: /<command>
+      description: Base Command
+
+permissions:
+   idrop.reload:
+      description: Access the reload command
+   idrop.bypass:
+      Bypass the restrictions
